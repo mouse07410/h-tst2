@@ -9,7 +9,7 @@ fib n = fibs !! n
   where
     fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 
-fib_hs :: CInt -> CInt
-fib_hs = fromIntegral . fib . fromIntegral
+fibHs :: CInt -> CInt
+fibHs = fromIntegral . fib . fromIntegral
 
-foreign export ccall fib_hs :: CInt -> CInt
+foreign export ccall fibHs :: CInt -> CInt
