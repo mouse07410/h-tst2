@@ -9,15 +9,15 @@
 int main(int argc, char *argv[])
 {
     int i;
-    int input = 42;
+    int input = 43;
 
     if (argc > 1)
       input = atoi(argv[1]);
 
     hs_init(&argc, &argv);
 
-    i = fib_hs(42);
-    printf("Fibonacci: %d\n", i);
+    i = fibHs(input);
+    printf("Fibonacci(%d): %d\n", input, i);
 
     hs_exit();
     return 0;
