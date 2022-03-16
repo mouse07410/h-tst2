@@ -1,2 +1,4 @@
 *.o
 dist-newstyle
+Fib_stub.h
+.idea
