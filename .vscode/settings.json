@@ -28,6 +28,13 @@
                 "color": "white",
                 "singleInstance": true,
                 "command": "cabal run test"
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "Cabal clean",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal clean"
             }
         ]
     },
