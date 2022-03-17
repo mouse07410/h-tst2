@@ -20,14 +20,14 @@
                 "name": "Cabal run",
                 "color": "white",
                 "singleInstance": true,
-                "command": "cabal run ${workspaceFolderBasename}"
+                "command": "cabal run exe:${workspaceFolderBasename}"
             },
             {
                 "cwd": "${workspaceFolder}",
                 "name": "Cabal test",
                 "color": "white",
                 "singleInstance": true,
-                "command": "cabal run test"
+                "command": "cabal run exe:${workspaceFolderBasename}-test"
             },
             {
                 "cwd": "${workspaceFolder}",
