@@ -9,7 +9,7 @@ description:         Experiment to time performance of Haskell functions called 
 -- bug-reports:
 license:             MIT
 license-file:        LICENSE
-copyright:           "Copyright (C) 2020, MIT"
+copyright:           "Copyright (C) MIT 2020-2022"
 -- category:
 extra-source-files:  CHANGELOG.md
 
