@@ -1,4 +1,11 @@
 *.o
 dist-newstyle
-Fib_stub.h
+*.h
 .idea
+*~
+*.tex
+*.sty
+*.aux
+*.out
+*.html
+*.js
