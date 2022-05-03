@@ -6,7 +6,7 @@
                 "name": "Start GHCi",
                 "color": "white",
                 "singleInstance": true,
-                "command": "cabal v2-repl"
+                "command": "cabal v2-repl --repl-options \"-interactive-print=Text.Pretty.Simple.pPrint\" --build-depends pretty-simple"
             },
             {
                 "cwd": "${workspaceFolder}",
